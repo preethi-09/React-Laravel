@@ -7,4 +7,5 @@ Following steps are required to run the react project.
   3.npm install sweetalert2
   4.npm install --save axios
   5.npm install bootstrap reactstrap
-  6.npm start
+  6.npm i -D react-router-dom
+  7.npm start
