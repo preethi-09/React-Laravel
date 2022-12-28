@@ -23,7 +23,11 @@ function Home() {
         var search = e.target.value;
 
         if (search !== ""){
-            setTableData(tableData.filter(value=>value.first_name.toLowerCase().includes(search.toLowerCase())));
+            setTableData(tableData.filter((value)=>value.first_name.toLowerCase().includes(search.toLowerCase()) ||
+            value.last_name.toLowerCase().includes(search.toLowerCase()) ||
+            value.email.toLowerCase().includes(search.toLowerCase()) ||
+            value.phone.toLowerCase().includes(search.toLowerCase()) 
+            ));
         }else if(search === ""){
             getStudents();
         }
