@@ -5,6 +5,6 @@ Following steps are required to run the react project.
   1.npm install node
   2.npm i react-data-table-component
   3.npm install sweetalert2
-  4.npm install axios
+  4.npm install --save axios
   5.npm install bootstrap reactstrap
   6.npm start
